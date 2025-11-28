@@ -4,6 +4,8 @@
   int led3 = 5;
   int led4 = 6;
   int led5 = 7;
+  int ldrpin = A0;
+  int ldrValue = 0;
 
 void setup() {
   Serial.begin(9600);
@@ -17,4 +19,5 @@ void setup() {
 
 void loop() {
   lampadas();
+  LDR();
 }
