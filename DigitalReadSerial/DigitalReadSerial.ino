@@ -7,6 +7,8 @@ LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
   int led3 = 5;
   int led4 = 6;
   int led5 = 7;
+  int ldrpin = A0;
+  int ldrValue = 0;
 
 void setup() {
   Serial.begin(9600);
@@ -27,5 +29,9 @@ lcd.setCursor(0, 0);
 
 void loop() {
   lampadas();
+<<<<<<< HEAD
   display();
+=======
+  LDR();
+>>>>>>> f558f58bc0900f5b7078ddfbb67e16d6724e8fda
 }
