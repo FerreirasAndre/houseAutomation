@@ -9,7 +9,7 @@ void lampadas() {
 
     switch(led){
     case 'a':
-    Serial.print(led);
+    Serial.println(led);
     if (digitalRead(led1) == HIGH){
       digitalWrite(led1, LOW);
     }else{
@@ -17,7 +17,7 @@ void lampadas() {
     }
     break;
     case 's':
-     Serial.print(led);
+     Serial.println(led);
     if (digitalRead(led2) == HIGH){
       digitalWrite(led2, LOW);
     }else{
@@ -25,7 +25,7 @@ void lampadas() {
     }
     break;
     case 'd':
-    Serial.print(led);
+    Serial.println(led);
     if (digitalRead(led3) == HIGH){
       digitalWrite(led3, LOW);
     }else{
@@ -33,7 +33,7 @@ void lampadas() {
     }
     break;
     case 'f':
-     Serial.print(led);
+     Serial.println(led);
     if (digitalRead(led4) == HIGH){
       digitalWrite(led4, LOW);
     }else{
@@ -41,7 +41,7 @@ void lampadas() {
     }
     break;
     case 'g':
-    Serial.print(led);
+    Serial.println(led);
     if (digitalRead(led5) == HIGH){
       digitalWrite(led5, LOW);
     }else{
