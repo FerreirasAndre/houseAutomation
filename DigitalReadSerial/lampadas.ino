@@ -1,3 +1,4 @@
+//lampadas funcionando
 void lampadas() {
   // digitalWrite(led1,HIGH);
   // delay(1000);
